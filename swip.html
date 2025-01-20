@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Demo styles -->
+    <style>
+        .us__main .swiper {
+            width: 85%;
+            height: 100%;
+        }
+
+        .us__main .swiper-slide {
+            /* text-align: center; */
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .us__box {
+            padding: 50px 52px 50px 50px;
+            background-color: white;
+            border-radius: 6px;
+            border: 1px solid #F2F2F2;
+            margin-bottom: 50px;
+        }
+
+        .testimonial__wrap {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .testimonial__img {
+            width: 36px;
+        }
+
+        .star__img {
+            width: 80px;
+        }
+
+        .para__content p {
+            font-family: "Poppins";
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 30px;
+            text-align: left;
+            color: #525252;
+        }
+
+        .para__content p:first-child {
+            margin-bottom: 10px !important;
+        }
+
+        .para__content {
+            margin-bottom: 30px;
+        }
+
+        .profile__wrap {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            column-gap: 20px;
+        }
+
+        .profile__img {
+            width: 50px;
+        }
+
+        .profile__wrap p {
+            font-family: "Poppins";
+            font-size: 20px;
+            font-style: italic;
+            font-weight: 600;
+            line-height: 36px;
+            text-align: left;
+            color: #F37121;
+        }
+
+        .swiper-button-prev {
+            width: 50px;
+            height: 50px;
+            filter: drop-shadow(0px 7px 10px rgba(0, 0, 0, 0.20));
+            left: 10px;
+        }
+
+        .swiper-button-next {
+            width: 50px;
+            height: 50px;
+            filter: drop-shadow(0px 7px 10px rgba(0, 0, 0, 0.20));
+            right: 10px;
+        }
+
+        .swiper-button-next:after,
+        .swiper-button-prev:after {
+            display: none;
+            font-family: swiper-icons;
+            font-size: var(--swiper-navigation-size);
+            text-transform: none !important;
+            letter-spacing: 0;
+            font-variant: initial;
+            line-height: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Swiper -->
+     <div class="us__main">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="us__box">
+                    <div class="testimonial__wrap">
+                        <div class="testimonial__img"><img src="img/“.svg"></div>
+                        <div class="star__img"><img src="img/Group 9.svg"></div>
+                    </div>
+                    <div class="para__content">
+                        <p>“We were thoroughly impressed with the hardwood flooring Advance Builder Solution
+                            delivered for our latest project. The top-notch quality of the maple wood was
+                            paramount, reflecting the craftsmanship we aim to embed in our builds. Advance
+                            Builder Solution's team demonstrated exceptional expertise in guiding us through the
+                            wood selection process and providing crucial maintenance advice.
+                        </p>
+                        <p>Their keen eye for detail during installation resulted in a flawless finish that
+                            elevated the property's aesthetics. We highly recommend Advance Builder Solution to
+                            fellow builders and development companies looking for superior-quality hardwood
+                            floors.”</p>
+                    </div>
+                    <div class="profile__wrap">
+                        <div class="profile__img"><img src="img/profile1.svg"></div>
+                        <p>-Jordan C</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="us__box">
+                    <div class="testimonial__wrap">
+                        <div class="testimonial__img"><img src="img/“.svg"></div>
+                        <div class="star__img"><img src="img/Group 9.svg"></div>
+                    </div>
+                    <div class="para__content">
+                        <p>“We were thoroughly impressed with the hardwood flooring Advance Builder Solution
+                            delivered for our latest project. The top-notch quality of the maple wood was
+                            paramount, reflecting the craftsmanship we aim to embed in our builds. Advance
+                            Builder Solution's team demonstrated exceptional expertise in guiding us through the
+                            wood selection process and providing crucial maintenance advice.
+                        </p>
+                        <p>Their keen eye for detail during installation resulted in a flawless finish that
+                            elevated the property's aesthetics. We highly recommend Advance Builder Solution to
+                            fellow builders and development companies looking for superior-quality hardwood
+                            floors.”</p>
+                    </div>
+                    <div class="profile__wrap">
+                        <div class="profile__img"><img src="img/profile1.svg"></div>
+                        <p>-Jordan C</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="us__box">
+                    <div class="testimonial__wrap">
+                        <div class="testimonial__img"><img src="img/“.svg"></div>
+                        <div class="star__img"><img src="img/Group 9.svg"></div>
+                    </div>
+                    <div class="para__content">
+                        <p>“We were thoroughly impressed with the hardwood flooring Advance Builder Solution
+                            delivered for our latest project. The top-notch quality of the maple wood was
+                            paramount, reflecting the craftsmanship we aim to embed in our builds. Advance
+                            Builder Solution's team demonstrated exceptional expertise in guiding us through the
+                            wood selection process and providing crucial maintenance advice.
+                        </p>
+                        <p>Their keen eye for detail during installation resulted in a flawless finish that
+                            elevated the property's aesthetics. We highly recommend Advance Builder Solution to
+                            fellow builders and development companies looking for superior-quality hardwood
+                            floors.”</p>
+                    </div>
+                    <div class="profile__wrap">
+                        <div class="profile__img"><img src="img/profile1.svg"></div>
+                        <p>-Jordan C</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="us__box">
+                    <div class="testimonial__wrap">
+                        <div class="testimonial__img"><img src="img/“.svg"></div>
+                        <div class="star__img"><img src="img/Group 9.svg"></div>
+                    </div>
+                    <div class="para__content">
+                        <p>“We were thoroughly impressed with the hardwood flooring Advance Builder Solution
+                            delivered for our latest project. The top-notch quality of the maple wood was
+                            paramount, reflecting the craftsmanship we aim to embed in our builds. Advance
+                            Builder Solution's team demonstrated exceptional expertise in guiding us through the
+                            wood selection process and providing crucial maintenance advice.
+                        </p>
+                        <p>Their keen eye for detail during installation resulted in a flawless finish that
+                            elevated the property's aesthetics. We highly recommend Advance Builder Solution to
+                            fellow builders and development companies looking for superior-quality hardwood
+                            floors.”</p>
+                    </div>
+                    <div class="profile__wrap">
+                        <div class="profile__img"><img src="img/profile1.svg"></div>
+                        <p>-Jordan C</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="us__box">
+                    <div class="testimonial__wrap">
+                        <div class="testimonial__img"><img src="img/“.svg"></div>
+                        <div class="star__img"><img src="img/Group 9.svg"></div>
+                    </div>
+                    <div class="para__content">
+                        <p>“We were thoroughly impressed with the hardwood flooring Advance Builder Solution
+                            delivered for our latest project. The top-notch quality of the maple wood was
+                            paramount, reflecting the craftsmanship we aim to embed in our builds. Advance
+                            Builder Solution's team demonstrated exceptional expertise in guiding us through the
+                            wood selection process and providing crucial maintenance advice.
+                        </p>
+                        <p>Their keen eye for detail during installation resulted in a flawless finish that
+                            elevated the property's aesthetics. We highly recommend Advance Builder Solution to
+                            fellow builders and development companies looking for superior-quality hardwood
+                            floors.”</p>
+                    </div>
+                    <div class="profile__wrap">
+                        <div class="profile__img"><img src="img/profile1.svg"></div>
+                        <p>-Jordan C</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="us__box">
+                    <div class="testimonial__wrap">
+                        <div class="testimonial__img"><img src="img/“.svg"></div>
+                        <div class="star__img"><img src="img/Group 9.svg"></div>
+                    </div>
+                    <div class="para__content">
+                        <p>“We were thoroughly impressed with the hardwood flooring Advance Builder Solution
+                            delivered for our latest project. The top-notch quality of the maple wood was
+                            paramount, reflecting the craftsmanship we aim to embed in our builds. Advance
+                            Builder Solution's team demonstrated exceptional expertise in guiding us through the
+                            wood selection process and providing crucial maintenance advice.
+                        </p>
+                        <p>Their keen eye for detail during installation resulted in a flawless finish that
+                            elevated the property's aesthetics. We highly recommend Advance Builder Solution to
+                            fellow builders and development companies looking for superior-quality hardwood
+                            floors.”</p>
+                    </div>
+                    <div class="profile__wrap">
+                        <div class="profile__img"><img src="img/profile1.svg"></div>
+                        <p>-Jordan C</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="swiper-button-next rty">
+            <img src="images/right-arrow.svg">
+        </div>
+        <div class="swiper-button-prev white">
+            <img src="images/left-arrow.svg">
+        </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 2,
+            spaceBetween: 15,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            on: {
+                resize: function () {
+                    swiper.changeDirection(getDirection());
+                },
+            },
+        });
+        function getDirection() {
+            var windowWidth = window.innerWidth;
+            var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
+
+            return direction;
+        }
+    </script>
+</body>
+
+</html>
