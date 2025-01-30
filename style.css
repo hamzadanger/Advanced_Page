@@ -1,3 +1,8 @@
+@media screen and (min-width: 1920px) {
+    .footer__middle {
+        column-gap: 170px !important;
+    }
+}
 * {
     margin: 0;
     padding: 0;
